@@ -13,8 +13,8 @@ eksctl create cluster \
 (b) Associate IAM OIDC Provider
 
 eksctl utils associate-iam-oidc-provider \
-  --region ap-south-1 \
-  --cluster Cloudaseem \
+  --region us-east-1 \
+  --cluster brewsecureops-cluster \
   --approve
 
 c. node group
