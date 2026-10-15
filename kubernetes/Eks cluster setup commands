@@ -1,10 +1,10 @@
 (a) Create EKS Cluster (without node group)
 
 eksctl create cluster \
-  --name=Cloudaseem \
-  --region=ap-south-1 \
-  --zones=ap-south-1a,ap-south-1b \
-  --version=1.30 \
+  --name=brewsecureops-cluster \
+  --region=us-east-1 \
+  --zones=us-east-1a,us-east-1b \
+  --version=1.36 \
   --without-nodegroup
 
 
