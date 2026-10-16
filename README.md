@@ -34,27 +34,6 @@ The project combines **CI/CD automation, DevSecOps practices, Infrastructure as 
 
 ---
 
-## 📌 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Key Features](#-key-features)
-- [Technology Stack](#-technology-stack)
-- [Architecture](#-architecture)
-- [End-to-End Pipeline Flow](#-end-to-end-pipeline-flow)
-- [DevSecOps Pipeline Stages](#-devsecops-pipeline-stages)
-- [Deployment Architecture](#-deployment-architecture)
-- [Monitoring and Observability](#-monitoring-and-observability)
-- [Project Structure](#-project-structure)
-- [Prerequisites](#-prerequisites)
-- [Getting Started](#-getting-started)
-- [Configuration](#-configuration)
-- [Security Best Practices](#-security-best-practices)
-- [Troubleshooting](#-troubleshooting)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
-
----
-
 ## 📖 Project Overview
 
 Traditional application deployment can involve repetitive manual steps, inconsistent environments, delayed security checks, and limited visibility into application health.
