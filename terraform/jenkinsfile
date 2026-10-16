@@ -10,10 +10,10 @@ pipeline {
         string(name: 'action', defaultValue: 'apply', description: 'terraform action: apply or destroy')
     }
 
-    stages {
-        stage('Checkout from Git') {                        
+    stage('Checkout from Git') {
             steps {
-                git branch: 'main', credentialsId: 'github-token', url: 'https://github.com/Aseemakram19/starbucks-kubernetes.git'
+                git branch: 'main',
+                    url: 'https://github.com/divesht2024/brewsecureops.git'
             }
         }
 
