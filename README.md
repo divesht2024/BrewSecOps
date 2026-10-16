@@ -279,13 +279,10 @@ The complete delivery workflow is organized into the following stages.
 - Include useful build information and diagnostic details.
 - Send monitoring alerts only when the relevant alerting rules and notification integrations are configured.
 
-### Pipeline Summary
 <p align="center">
   <img src="brewsecops_architecture.png" alt="BrewSecOps DevSecOps Architecture" width="100%">
 </p>
-```
 
----
 
 ## 🔐 DevSecOps Pipeline
 
