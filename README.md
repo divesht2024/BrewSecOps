@@ -3,7 +3,9 @@
 ### 🚀 Automating CI/CD, DevSecOps, Containerization, Kubernetes Deployment & Monitoring
 
 BrewSecOps is a cloud-native DevSecOps project designed to automate application delivery through a Jenkins CI/CD pipeline, integrate security checks into the software development lifecycle, deploy containerized applications on Kubernetes, and monitor application and infrastructure health using Prometheus and Grafana.
-
+<p align="center">
+  <img src="BrewSecOps_DevSecOps_Architecture.png" alt="BrewSecOps DevSecOps Architecture" width="100%">
+</p>
 The project combines **CI/CD automation, DevSecOps practices, Infrastructure as Code, container orchestration, and observability** into a single end-to-end workflow.
 
 [![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-D24939?style=for-the-badge&logo=jenkins&logoColor=white)](https://www.jenkins.io/)
