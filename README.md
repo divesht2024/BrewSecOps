@@ -280,7 +280,7 @@ The complete delivery workflow is organized into the following stages.
 - Send monitoring alerts only when the relevant alerting rules and notification integrations are configured.
 
 <p align="center">
-  <img src="brewsecops_architecture.png" alt="BrewSecOps DevSecOps Architecture" width="100%">
+  <img src="brewsecops_architecture.gif" alt="BrewSecOps DevSecOps Architecture" width="100%">
 </p>
 
 
