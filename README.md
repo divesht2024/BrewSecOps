@@ -280,56 +280,9 @@ The complete delivery workflow is organized into the following stages.
 - Send monitoring alerts only when the relevant alerting rules and notification integrations are configured.
 
 ### Pipeline Summary
-
-```text
-Developer Push
-      |
-      v
-GitHub Repository
-      |
-      v
-Jenkins Pipeline
-      |
-      v
-Source Checkout
-      |
-      v
-SonarQube Quality Gate
-      |
-      v
-OWASP Dependency Analysis
-      |
-      v
-Docker Image Build
-      |
-      v
-Trivy Security Scan
-      |
-      v
-Security Validation
-      |
-      +---- Failure ---> Stop Pipeline / Notify
-      |
-      v
-Amazon ECR
-      |
-      v
-Amazon EKS
-      |
-      v
-Helm / Kubernetes Deployment
-      |
-      v
-Service / Ingress / Load Balancer
-      |
-      v
-Running Application
-      |
-      v
-Prometheus ---> Grafana
-      |
-      v
-Monitoring and Troubleshooting
+<p align="center">
+  <img src="brewsecops_architecture.png" alt="BrewSecOps DevSecOps Architecture" width="100%">
+</p>
 ```
 
 ---
